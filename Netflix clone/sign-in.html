@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign into Account</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;700&family=Rubik+Glitch+Pop&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="assets/Frame.png" alt="" />
+    </header>
+    <main>
+      <sub>
+        <h1>Sign In</h1>
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+        <input type="email" placeholder="Email" />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="password"
+        /></div>
+        <a href="user.html" target="_blank" rel="noopener noreferrer"><input type="button" value="Sign-in" class="sign-in" /></a>
+        <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+          <span style="display: flex; align-items: center;"><input
+            type="checkbox"
+            name="Remember me"
+            id="Remember"
+            class="checkbox"
+          />
+          <p style="color:rgb(178, 172, 172) ;">Remember me</p></span>
+          <a href="http://" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: rgb(178, 172, 172);">Need help?</a>
+        </div>
+<div style="color: #757575;">
+        <a href="http://" target="_blank" rel="noopener noreferrer"
+          >log in with Facebook</a>
+        <p>New to Netflix? <a href="" style="color: white;">Sign up now</a></p>
+        <small
+          >This page is protected by Google reCAPTCHA to ensure you are not a
+          bot.
+          <a href="" target="_blank" class="blue-link" style="color: blue;"> Learn more.</a></small
+        ></div>
+      </sub>
+    </main>
+    <footer>
+        <div>
+      <p>Questions? Call 1-844-505-2993</p>
+      <span>
+        <div>
+          <a href="">FAQ</a>
+          <a href="">Cookie Prefreences</a>
+        </div>
+        <div>
+          <a href="">Help Center</a>
+          <a href="">Coporate Information</a>
+        </div>
+        <div>
+          <a href="">Terms of Use</a>
+        </div>
+        <div>
+          <a href="">Privacy</a>
+        </div>
+      </span>
+      <select id="language-select">
+        <option value="en">
+          <span class="material-symbols-outlined"> language </span>English
+        </option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+      </select>
+    </div>
+    </footer>
+    <style>
+      body {
+        background-image: url(assets/sign\ in.png);
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        font-family: "Roboto", sans-serif;
+      }
+      header {
+        display: flex;
+        position: fixed;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px;
+
+      }
+      main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 100px;
+      }
+      sub {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.605);
+        border-radius: 4px;
+        width: 314px;
+        height: 500px;
+        justify-content: space-between;
+
+        padding: 50px;
+      }
+      input {
+        height: 50px;
+        width: 314px;
+        border-radius: 4px;
+        background-color: #3c3a3a;
+        color: #757575;
+        border-style: none;
+      }
+
+      .sign-in {
+        background-color: red;
+        color: white;
+      }
+      .checkbox {
+        height: 10px;
+        width: 10px;
+        background-color: #757575;
+      }
+
+      footer {
+        background-color: rgba(0, 0, 0, 0.605);
+        display: flex;
+        color: #757575;
+        padding: 30px;
+        align-items: center;
+        justify-content: center;
+      }
+      footer div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+      }
+      footer a {
+        color: #757575;
+        text-decoration: none;
+      }
+      footer span {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+      }
+      footer div {
+        display: flex;
+        flex-direction: column;
+        line-height: 2;
+      }
+      select {
+        padding: 8px;
+        border-style: none;
+        border-radius: 2px;
+        background-color: #000000;
+        color: #757575;
+        cursor: pointer;
+      }
+      select option:checked {
+        background-color: #000000;
+        font-weight: 300;
+      }
+      a{
+        text-decoration: none;
+      }
+      sub a{
+color: #757575;
+      }
+    </style>
+  </body>
+</html>

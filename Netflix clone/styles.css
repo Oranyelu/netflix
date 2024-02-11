@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100px;
+}
+header div {
+  flex-direction: row;
+  display: flex;
+  width: 95vw;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  background-color: #e50914;
+  border-style: none;
+  height: 70px;
+  width: 247px;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-weight: 300px;
+  font-size: 1.5rem;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.Sign-in {
+  background-color: #e50914;
+  width: 84px;
+  height: 34px;
+  border-style: none;
+  border-radius: 2px;
+  color: white;
+}
+
+select {
+  padding: 8px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 2px;
+  background-color: #000000;
+  color: #757575;
+  cursor: pointer;
+  border: white;
+
+}
+select option:checked {
+  background-color: #000000;
+  font-weight: 300;
+}
+
+.hero-page {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(assets/background.png);
+}
+strong {
+  font-size: 4rem;
+}
+.email {
+  height: 70px;
+  width: 500px;
+  border-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.line {
+  background-color: #757575;
+  width: 100vw;
+  height: 5px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-shrink: 1;
+}
+main span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+main span article {
+}
+main span article h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+sub {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+sub span {
+  display: flex;
+  flex-direction: row;
+  background-color: #757575;
+  height: 75px;
+  width: 785px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+sub span h3 {
+  font-weight: 300;
+}
+
+footer {
+  color: #757575;
+  padding-bottom: 70px;
+}
+footer a {
+  color: #757575;
+  text-decoration: none;
+}
+footer span {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+.get-started {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+}
